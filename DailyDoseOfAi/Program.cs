@@ -1,6 +1,6 @@
 ﻿using DailyDoseOfAi.Core;
 
-Console.WriteLine("Starting Daily Dose of AI Application...");
+Console.WriteLine("Incipio Dosis Quotidiana Intelligentiae Artificialis...");
 
 var tipManager = new TipManager();
 var dailyTip = tipManager.GetDailyTip();
@@ -14,8 +14,8 @@ void WriteWithDelay(string text, int delayMs = 100)
     }
 }
 
-WriteWithDelay($"\n📌 Daily GitHub Copilot Tip:\n");
-WriteWithDelay($"Title: {dailyTip.Title}\n");
-WriteWithDelay($"Description: {dailyTip.Description}\n\n");
+WriteWithDelay($"\n📌 Consilium Cotidianum GitHub Copilot:\n");
+WriteWithDelay($"Titulus: {dailyTip.Title}\n");
+WriteWithDelay($"Descriptio: {dailyTip.Description}\n\n");
 
-Console.WriteLine("Done!");
+Console.WriteLine("Perfectum!");
