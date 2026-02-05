@@ -5,44 +5,44 @@ public class TipManager
     private readonly List<Tip> _tips = new()
     {
         new Tip(
-            "Copilot: Your New Best Friend",
-            "Copilot is like having a senior developer who never sleeps, never complains, and never judges your variable names. Well, actually it does judge, but it won't tell HR."
+            "Copilot: Amicus Optimus Tuus",
+            "Copilot est tamquam senioris programmatoris: numquam dormit, numquam conqueritur, numquam iudicat nomina variabilium tuorum. Bene, revera iudicat, sed ad HR non narrabit."
         ),
         new Tip(
-            "The Magic of `/explain`",
-            "Use Copilot's /explain command to understand code you wrote 6 months ago. Spoiler alert: you won't remember why you wrote it that way."
+            "Magia Explicandi",
+            "Usa praeceptum /explain Copiloti ut intellegas codicem quem sex menses antea scripsi. Monitio: num reminerisceris cur ita scripseris."
         ),
         new Tip(
-            "Comments Are Your Love Letters",
-            "Write comments for your future self. Hint: your future self is going to hate your past self regardless, so you might as well try."
+            "Animadversiones: Epistolae Amoris Tuae",
+            "Scribe animadversiones pro futuro te. Monitus: futurus tuus se odio habitum erit praeterito tuo, igitur saltem conare."
         ),
         new Tip(
-            "Ask Copilot Anything",
-            "Copilot can help with code, tests, documentation, and debugging. Just don't ask it to write your love letters. (Actually, maybe don't ask it anything too personal)."
+            "Roga Copilot Quodvis",
+            "Copilot auxilium praestare potest cum codice, probationibus, documentatione, et emendatione. Tantum ne roga ut epistolas amoris scribat. (Fortasse ne quaecumque nimis personalia rogabis)."
         ),
         new Tip(
-            "Tab Complete Your Way to Victory",
-            "Press Tab to accept Copilot's suggestions. Spoiler alert: you'll accidentally accept the suggestion that breaks your code. That's why they invented Ctrl+Z."
+            "Completa Tabulatione ad Victoriam",
+            "Premi Tab ut suggestiones Copiloti accipias. Monitio: fortasse graviter accipies suggestionem quae codicem tuum frangit. Idcirco Ctrl+Z invenerunt."
         ),
         new Tip(
-            "Test-Driven Development with Copilot",
-            "Let Copilot write your tests while you sip coffee. Warning: your tests might be too generous, but at least they exist!"
+            "Evolutio Probationibus Comota cum Copilot",
+            "Sine Copilot probationes tuorum scribere dum tu potionem bibis. Monitio: probationes tuae benignae nimis esse possunt, sed saltem existent!"
         ),
         new Tip(
-            "Naming Things (The Hard Problem)",
-            "Copilot can help with variable names so you don't end up with variables called 'temp', 'data', or 'stuff'. You're welcome, future you."
+            "Nominatio Rerum (Difficilissimum Problema)",
+            "Copilot auxilium praestare potest cum nominibus variabilium, ut non finias cum variabilibus 'temp', 'data', vel 'stuff'. Gratias tibi, future tue."
         ),
         new Tip(
-            "The Power of Context",
-            "Give Copilot context about your project in comments. More context = better suggestions. It's like the difference between 'fix it' and 'fix the database connection timeout'."
+            "Potentia Contextus",
+            "Da Copiloto contextum de tuo proiecto in animadversionibus. Contextus magis = suggestiones meliores. Similis est differentiae inter 'confer' et 'emenda connexionem databasei tempora exspectationis'."
         ),
         new Tip(
-            "Keep It DRY with Copilot",
-            "Don't Repeat Yourself! Let Copilot help refactor duplicated code. Your code review comments will thank you."
+            "Serva Siccum cum Copilot",
+            "Noli Repetas Te Ipsum! Sine Copilot adiuvare refactorizationem codi imitati. Tuae commentationes praetexendi gratiam agebunt."
         ),
         new Tip(
-            "Pair Programming with an AI",
-            "Copilot is your tireless pair programmer. It doesn't hog the keyboard, always stays on task, and never drinks all the office coffee."
+            "Programmatio Gemina cum Intelligentia Artificiali",
+            "Copilot est tuus programmator geminus indefessus. Non occupat claviaturam, semper in munere permanet, et numquam bibit omnem potionem officii."
         )
     };
 

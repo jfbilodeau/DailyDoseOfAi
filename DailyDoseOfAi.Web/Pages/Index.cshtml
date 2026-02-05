@@ -1,18 +1,18 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Pagina Domus";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Ave</h1>
+    <p>Cognisce de <a href="https://learn.microsoft.com/aspnet/core">fabrica Applicationum Retis cum ASP.NET Core</a>.</p>
 </div>
 
 @if (Model.DailyTip != null)
 {
     <div class="alert alert-info" role="alert">
-        <h4 class="alert-heading">📌 Daily GitHub Copilot Tip</h4>
+        <h4 class="alert-heading">📌 Consilium Cotidianum GitHub Copilot</h4>
         <strong>@Model.DailyTip.Title</strong>
         <hr>
         <p>@Model.DailyTip.Description</p>
